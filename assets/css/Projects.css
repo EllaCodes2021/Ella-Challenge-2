@@ -1,0 +1,192 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root {
+    --first-color: #191e46;
+    --second-color: #bed1d7;
+    --third-color: #483551;
+    --fourth-color: #fde8a9;
+    --fifth-color: #f39b76;
+
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+ul {
+    list-style: none;
+}
+a {
+    display: flex;
+    text-decoration: none;
+}
+h1,
+h2 {
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 10px 0;
+}
+p {
+    margin: 10px 0;
+}
+img {
+    width: 75%;
+    max-width: 1200px;
+}
+
+
+/* Project Sections */
+.project a {
+    color: var(--second-color);
+    font-size: 28px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.project {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+    
+/* Screen Sizes */
+
+/* this will be applied on any screen smaller then 980px */
+@media screen and (max-width: 980px) {
+    .navbar {
+        height: 110px;
+    }
+    .navbar .flex {
+        flex-direction: column;
+    }
+    .navbar ul {
+        padding: 10px;
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+    .flex {
+        flex-direction: column;
+    }
+    .languages {
+        height: auto;
+        width: auto;
+    }
+    #form {
+        order: 2;
+    }
+    #languages {
+        order: 1;
+    }
+    .pos-1 img {
+        padding: 10px;
+        max-width: 200px;
+        border-radius: 100px;
+        height: auto;
+        width: auto;    
+    }
+    .pos-2 {
+    height: auto;
+    width: auto;
+    }
+    .pos-3 {
+    height: auto;
+    width: auto;
+    }
+    img {
+        max-width: 50%;
+    }
+    .project {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    }
+    .project a {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    }
+}
+
+    /* this will be applied on any screen between then 768px and 575px*/
+@media screen and (max-width: 768px) {
+    .navbar {
+        height: 110px;
+    }
+    .navbar .flex {
+        flex-direction: column;
+    }
+    .navbar ul {
+        padding: 10px;
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+    .flex {
+        flex-direction: column;
+    }
+    .showcase {
+        height: auto;
+        min-width: 200px;
+    }
+    .pos-1 {
+        order: 1;
+    }
+    .pos-2 {
+        order: 2;
+    }
+    .pos-3 {
+        order: 3;
+    }
+    .pos-2 nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+    img {
+        max-width: 50%;
+    }
+    .project {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .project a {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+
+    }
+    
+}
+    /* this will be applied on any screen smaller then 575px */
+@media screen and (max-width: 575px) { 
+    .navbar {
+        height: 110px;
+    }
+    .navbar .flex {
+        flex-direction: column;
+    }
+    .navbar ul {
+        padding: 10px;
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+    .navbar a {
+    display: flex;
+    margin: auto;
+    }
+    .flex {
+        flex-direction: column;
+    }
+    img {
+        max-width: 50%;
+    }
+    .project {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .project a {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}

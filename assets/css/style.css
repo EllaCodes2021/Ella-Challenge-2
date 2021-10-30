@@ -1,0 +1,286 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root {
+    --first-color: #191e46;
+    --second-color: #bed1d7;
+    --third-color: #483551;
+    --fourth-color: #fde8a9;
+    --fifth-color: #f39b76;
+
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+ul {
+    list-style: none;
+}
+a {
+    display: flex;
+    text-decoration: none;
+    color: var(--fifth-color);
+}
+h1,
+h2 {
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 10px 0;
+}
+p {
+    margin: 10px 0;
+}
+img {
+    width: 75%;
+    max-width: 1200px;
+}
+
+/*Hero Section*/
+.showcase {
+    height: 400px;
+    background-color: var(--third-color);
+    position: relative;
+}
+.showcase h1 {
+    font-size: 40px;
+}
+.showcase p {
+    margin: 20px 0;
+}
+.showcase .grid {
+    grid-template-columns: 55% 45%;
+    overflow: visible;
+}
+.showcase-form {
+    position: relative;
+    top: 60px;
+    height: 300px;
+    width: 250px;
+    padding: 20px;
+    z-index: 100px;
+    justify-self: flex-end;
+    background-color: var(--fourth-color);
+}
+.showcase-form-2 h3 {
+    color: var(--first-color);
+}
+.showcase-form .form-control {
+    margin: 10px 0;
+}
+.showcase-form input [type='text'],
+.showcase-form input [type='email']{ 
+    border: 0;
+    border-bottom: 1px solid var(--first-color);
+    width: 100%;
+    font-size: 16px;
+    padding: 3px;
+}
+.showcase-form input {
+    outline: none;
+}
+
+/*My languages */
+.languages {
+    padding: 50px;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    margin: auto;
+    height: 550px;
+}
+.languages h2 {
+    font-size: 48px;
+    border-bottom: 3px solid ;
+    color: var(--fourth-color);
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+    overflow: visible;
+}
+.languages .card {
+    margin-top: 60px;
+    height: 50%;
+    text-align: center;
+    margin: 18px 10px 40px;
+    transition: transform 0.2s ease-in;
+}
+.languages .card .code {
+    height: 50px;
+}
+.languages .card h4 {
+    color: var(--fifth-color);
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.languages .card:hover {
+    transform: translateY( -15px);
+}
+.background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.background img {
+    border-radius: 15px;
+    margin: 30px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2); 
+}
+.title {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 40px 100px;
+}
+
+.showcase-form-2 {
+    position: relative;
+    height: 300px;
+    width: 250px;
+    z-index: 100px;
+    justify-self: flex-end;
+    background-color: var(--fifth-color);
+}
+.showcase-form .form-control {
+    margin: 10px 0;
+}
+.showcase-form input [type='text'],
+.showcase-form input [type='email']{ 
+    border: 0;
+    border-bottom: 1px solid var(--second-color);
+    width: 100%;
+    font-size: 16px;
+    padding: 3px;
+}
+.showcase-form-2 input {
+    outline: none;
+}
+
+
+
+/* Screen Sizes */
+
+/* this will be applied on any screen smaller then 980px */
+@media screen and (max-width: 980px) {
+    header {
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar ul {
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+    .flex {
+        flex-direction: column;
+    }
+    .languages {
+        height: auto;
+        width: auto;
+    }
+    #form {
+        order: 2;
+    }
+    #languages {
+        order: 1;
+    }
+    .pos-1 img {
+        padding: 10px;
+        max-width: 200px;
+        border-radius: 100px;
+        height: auto;
+        width: auto;    
+    }
+    .pos-2 {
+    height: auto;
+    width: auto;
+    }
+    .pos-3 {
+    height: auto;
+    width: auto;
+    }
+
+}
+
+    /* this will be applied on any screen between then 768px and 575px*/
+@media screen and (max-width: 768px) {
+    header {
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar ul {
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+    .flex {
+        flex-direction: column;
+    }
+    .languages {
+        height: auto;
+        width: auto;
+    }
+    #form {
+        order: 2;
+    }
+    #languages {
+        order: 1;
+    }
+    .pos-1 img {
+        padding: 10px;
+        max-width: 200px;
+        border-radius: 100px;
+        height: auto;
+        width: auto;    
+    }
+    .pos-2 {
+    height: auto;
+    width: auto;
+    }
+    .pos-3 {
+    height: auto;
+    width: auto;
+    }
+}
+    /* this will be applied on any screen smaller then 575px */
+@media screen and (max-width: 575px) { 
+    header {
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar ul {
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+    .flex {
+        flex-direction: column;
+    }
+    .languages {
+        height: auto;
+        width: auto;
+    }
+    #form {
+        order: 2;
+    }
+    #languages {
+        order: 1;
+    }
+    .pos-1 img {
+        padding: 10px;
+        max-width: 200px;
+        border-radius: 100px;
+        height: auto;
+        width: auto;    
+    }
+    .pos-2 {
+    height: auto;
+    width: auto;
+    }
+    .pos-3 {
+    height: auto;
+    width: auto;
+    }
+}
