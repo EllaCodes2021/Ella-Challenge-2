@@ -35,7 +35,7 @@ img {
     width: 75%;
     max-width: 1200px;
     border-radius: 20px;
-    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
 }
 
 
@@ -54,7 +54,6 @@ img {
     text-align: center;
 }
 .project-2 {
-    background-color: var(--second-color);
     align-items: center;
     justify-content: center;
     text-align: center;
