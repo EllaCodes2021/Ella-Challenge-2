@@ -39,6 +39,124 @@ img {
 /*Hero Section*/
 
 
-
+* {
+    margin:0; 
+    padding:0; 
+    text-indent:0; 
+}
+h1 { 
+    color: #006FC0; 
+    font-family:"Segoe UI Semibold", sans-serif; 
+    font-style: normal; 
+    font-weight: bold; 
+    text-decoration: none; 
+    font-size: 24pt; 
+}
+.s1 { 
+    color: #404040; 
+    font-family:"Segoe UI", sans-serif; 
+    font-style: normal; 
+    font-weight: normal; 
+    text-decoration: none; 
+    font-size: 10pt; 
+}
+a { 
+    color: #0A5293; 
+    font-family:"Segoe UI", sans-serif; 
+    font-style: normal; 
+    font-weight: normal; 
+    text-decoration: underline; 
+    font-size: 10pt; 
+}
+h2 { 
+    color: #0A5293; 
+    font-family:"Segoe UI Semibold", sans-serif; 
+    font-style: normal; 
+    font-weight: bold; 
+    text-decoration: none; 
+    font-size: 12pt; 
+}
+.p, p { 
+    color: #404040; 
+    font-family:"Segoe UI", sans-serif; 
+    font-style: normal; 
+    font-weight: normal; 
+    text-decoration: none; 
+    font-size: 11pt; 
+    margin:0pt; 
+}
+.s3 { 
+    color: #252525; 
+    font-family:"Segoe UI", sans-serif; 
+    font-style: normal; 
+    font-weight: normal; 
+    text-decoration: none; 
+    font-size: 11pt; 
+}
+.s4 { 
+    color: #001F5F; 
+    font-family:"Segoe UI", sans-serif; 
+    font-style: normal; 
+    font-weight: normal; 
+    text-decoration: none; 
+    font-size: 11pt; 
+}
+li {
+    display: block; 
+}
+#l1 {
+    padding-left: 0pt; 
+}
+#l1> li>*:first-child:before {
+    content: "• "; 
+    color: black; 
+    font-family:Arial, sans-serif; 
+    font-style: normal; 
+    font-weight: normal; 
+    text-decoration: none; 
+    font-size: 12pt; 
+}
+li {
+    display: block; 
+}
+#l2 {
+    padding-left: 0pt; 
+}
+#l2> li>*:first-child:before {
+    content: "• "; 
+    color: black; 
+    font-family:Arial, sans-serif; 
+    font-style: normal; 
+    font-weight: normal; 
+    text-decoration: none; 
+    font-size: 12pt; 
+}
+#l3 {
+    padding-left: 0pt; 
+}
+#l3> li>*:first-child:before {
+    content: "• "; 
+    color: black; 
+    font-family:Arial, sans-serif; 
+    font-style: normal; 
+    font-weight: normal; 
+    text-decoration: none; 
+    font-size: 12pt; 
+}
+li {
+    display: block; 
+}
+#l4 {
+    padding-left: 0pt; 
+}
+#l4> li>*:first-child:before {
+    content: "• "; 
+    color: black; 
+    font-family:Arial, sans-serif; 
+    font-style: normal; 
+    font-weight: normal; 
+    text-decoration: none; 
+    font-size: 12pt; 
+}
 
 
